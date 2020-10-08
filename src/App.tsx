@@ -77,7 +77,11 @@ function Card() {
 
 function CellFlex(props: { children: React.ReactNode }) {
 
-  const Wrapper = tw.div`mx-auto my-4 rounded flex flex-row flex-wrap align-middle justify-center w-64`
+  const Wrapper = tw.div`
+    mx-auto my-4 w-64
+    rounded 
+    flex flex-row flex-wrap align-middle justify-center
+  `
 
   return (
     <Wrapper>
