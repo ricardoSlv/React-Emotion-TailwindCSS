@@ -21,12 +21,12 @@ function App() {
 }
 
 function Card() {
-  const Wrapper = tw.div`max-w-sm m-auto relative flex flex-row p-6 bg-white rounded-lg shadow-xl`
+  const Wrapper = tw.div`max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl`
 
   return (
     <Wrapper>
       <div tw="flex-shrink-0">
-        <img tw="h-24 w-24" src={logo} alt="ChitChat Logo" />
+        <img tw="h-12 w-12" src={logo} alt="ChitChat Logo" />
       </div>
       <div tw="ml-2 pt-1" >
         <h4 tw="text-xl text-gray-900 leading-tight" >ChitChat</h4>
@@ -49,10 +49,20 @@ function CellFlex(props: { children: React.ReactNode }) {
 }
 
 function Cell(props: { children: React.ReactNode }) {
+
+  const Wrapper = tw.div`
+    grid place-items-center
+    m-2 p-2 rounded
+    text-gray-300 
+    cursor-pointer   
+    bg-gray-800 hover:bg-gray-600 
+    transition duration-300 ease-in-out 
+  `
+
   return (
-    <div css={tw`text-gray-300 rounded hover:bg-gray-600 transition duration-300 ease-in-out cursor-pointer bg-gray-800 m-2 px-2 py-2 grid place-items-center`}>
+    <Wrapper >
       {props.children}
-    </div>
+    </Wrapper>
   )
 }
 
