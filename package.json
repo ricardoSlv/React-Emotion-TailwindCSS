@@ -15,7 +15,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "tailwindcss": "^1.8.12",
     "twin.macro": "^1.10.0",
     "typescript": "^3.7.5"
   },
@@ -27,11 +26,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "babelMacros": {
-    "twin": {
-      "config": "tailwind.config.js"
-    }
   },
   "browserslist": {
     "production": [
