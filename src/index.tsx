@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 // import './styles/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import 'tailwindcss/dist/base.min.css';
+import { GlobalStyles } from 'twin.macro'
 
 ReactDOM.render(
   <React.StrictMode>
+    <GlobalStyles/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
