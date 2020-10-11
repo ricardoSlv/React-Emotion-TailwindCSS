@@ -57,7 +57,7 @@ function Card() {
       <div tw="flex-shrink-0">
         <img tw="h-12 w-12" src={logo} alt="ChitChat Logo" />
       </div>
-      <div tw="ml-2 pt-1" >
+      <div tw="ml-2 pt-1 flex" >
         <h4 tw="text-xl text-gray-900 leading-tight" >ChitChat</h4>
         <p tw="text-base text-gray-600 leading-normal" >You have a new message!</p>
         <div css={complexSelector}>

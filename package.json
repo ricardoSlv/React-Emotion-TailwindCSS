@@ -38,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "typescript-plugin-tw-template": "^2.1.0"
   }
 }
