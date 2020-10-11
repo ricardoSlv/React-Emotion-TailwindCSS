@@ -46,8 +46,11 @@ function Card() {
     '>p:nth-of-type(3)': css({ backgroundColor: 'green' }),
     '>p': css({ backgroundColor: 'blue' }, tw`pl-4`),
   }
-    , tw`text-center rounded overflow-hidden `
+    , tw`text-center rounded overflow-hidden`
   )
+
+  
+  
 
   return (
     <Wrapper>
