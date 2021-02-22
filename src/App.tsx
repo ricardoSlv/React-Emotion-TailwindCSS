@@ -33,8 +33,8 @@ function Card() {
     
     // '&:nth-child(2)': tw`bg-red-700`,
     // '&:first-child': tw`bg-red-100`,
-    //Console erros on child selectore warning they unsafe for SSR, 
-    //Docs say they can be worked around but encourage  nth-of-type(), first-of-type() instead
+    //Console erros on child selector warning they are unsafe for SSR, 
+    //Docs mention they can be worked around but encourage  nth-of-type(), first-of-type() instead
   }
     , tw`text-center rounded  overflow-hidden mb-2`
   )
